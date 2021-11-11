@@ -78,12 +78,9 @@ UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
 end)
 
 --Main Library
-function Library:CreateTab(tabtitle, tabdescription)
     local TabName = Instance.new("TextButton")
     local TabNameBody = Instance.new("Frame")
     local BodyLayout = Instance.new("UIListLayout")
-    local DescriptionHolder = Instance.new("Frame")
-    local DescriptionText = Instance.new("TextLabel")
     local TabUnderline = Instance.new("Frame")
 
     local IsATabOpen = false
